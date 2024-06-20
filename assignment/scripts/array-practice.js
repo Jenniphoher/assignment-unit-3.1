@@ -109,7 +109,7 @@ console.log(lastColor, 'is gone from', colors);
 
 // Example: Remove the first animal using the Array.shift method.
 removedAnimal = animalArray.shift();
-console.log('Removed the first animal', removedAnimal);
+console.log('Removed the first animal $(removedAnimal)');
 console.log('The animals are now', animalArray);
 
 // 4.d. TODO: Remove the first value from the `colors` array and store it
@@ -184,3 +184,4 @@ try {
 } catch (e) {
   // Do nothing
 }
+
